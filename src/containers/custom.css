@@ -1,0 +1,33 @@
+
+.active {
+  background-color: #a2a3ae;
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+
+  border-radius: 5px;
+}
+NavLink:hover{
+    text-decoration: none;
+
+}
+.active:focus {
+}
+.sidebar-list NavLink:hover {
+    outline: none;
+  text-decoration: none;
+}
+.hoverr:hover{
+  border-radius: 5px;
+  background-color: #e1e1e1;
+}
+
+.hoverr-icon-view:hover{
+  color: skyblue;
+}
+.hoverr-icon-edit:hover{
+  color:orange;
+}
+.hoverr-icon-delete:hover{
+  color:red;
+}
